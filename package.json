@@ -1,0 +1,19 @@
+{
+  "name": "tdd-todo-list",
+  "version": "1.0.0",
+  "description": "Gerenciador de tarefas com TDD e Vitest",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.0.0"
+  }
+}
